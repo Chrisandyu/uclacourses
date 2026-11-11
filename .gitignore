@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules
+dist
+
+# Tauri / Cargo build output and generated schemas
+src-tauri/target
+src-tauri/gen
+
+# Logs
+*.log
+
+# Local env files
+*.local
+.env*
+
+# Editors and OS
+.vscode
+.idea
+.DS_Store
+*.sw?
